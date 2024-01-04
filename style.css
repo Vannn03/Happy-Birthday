@@ -1,0 +1,421 @@
+body, html{
+	margin: 0px;
+	height: 100%;
+	overflow-y: hidden;
+    font-family: cursive;
+    background-color: #000;
+}
+
+/* Glowing Text */
+.greetings{
+    font-size: 3rem;
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+.greetings > #happy-word > span:nth-child(1){
+    animation: glow1 3s ease-in-out infinite;
+}
+@keyframes glow1 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #happy-word > span:nth-child(2){
+    animation: glow2 3s ease-in-out infinite;
+    animation-delay: .2s ;
+}
+@keyframes glow2 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff7300, 0 0 40px #ff7300, 0 0 50px #ff7300, 0 0 60px #ff7300, 0 0 70px #ff7300, 0 0 80px #ff7300;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #happy-word > span:nth-child(3){
+    animation: glow3 3s ease-in-out infinite;
+    animation-delay: .4s ;
+}
+@keyframes glow3 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #fffb00, 0 0 40px #fffb00, 0 0 50px #fffb00, 0 0 60px #fffb00, 0 0 70px #fffb00, 0 0 80px #fffb00;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #happy-word > span:nth-child(4){
+    animation: glow4 3s ease-in-out infinite;
+    animation-delay: .6s;
+}
+@keyframes glow4 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #48ff00, 0 0 40px #48ff00, 0 0 50px #48ff00, 0 0 60px #48ff00, 0 0 70px #48ff00, 0 0 80px #48ff00;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #happy-word > span:nth-child(5){
+    animation: glow5 3s ease-in-out infinite;
+    animation-delay: .8s;
+}
+@keyframes glow5 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #00ffd5, 0 0 40px #00ffd5, 0 0 50px #00ffd5, 0 0 60px #00ffd5, 0 0 70px #00ffd5, 0 0 80px #00ffd5;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(1){
+    animation: glow6 3s ease-in-out infinite;
+    animation-delay: 1s;
+}
+@keyframes glow6 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #002bff, 0 0 40px #002bff, 0 0 50px #002bff, 0 0 60px #002bff, 0 0 70px #002bff, 0 0 80px #002bff;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(2){
+    animation: glow7 3s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+@keyframes glow7 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #7a00ff, 0 0 40px #7a00ff, 0 0 50px #7a00ff, 0 0 60px #7a00ff, 0 0 70px #7a00ff, 0 0 80px #7a00ff;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(3){
+    animation: glow8 3s ease-in-out infinite;
+    animation-delay: 1.4s;
+}
+@keyframes glow8 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff00c8, 0 0 40px #ff00c8, 0 0 50px #ff00c8, 0 0 60px #ff00c8, 0 0 70px #ff00c8, 0 0 80px #ff00c8;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(4){
+    animation: glow9 3s ease-in-out infinite;
+    animation-delay: 1.6s;
+}
+@keyframes glow9 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(5){
+    animation: glow10 3s ease-in-out infinite;
+    animation-delay: 1.8s;
+}
+@keyframes glow10 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff7300, 0 0 40px #ff7300, 0 0 50px #ff7300, 0 0 60px #ff7300, 0 0 70px #ff7300, 0 0 80px #ff7300;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(6){
+    animation: glow11 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+@keyframes glow11 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #fffb00, 0 0 40px #fffb00, 0 0 50px #fffb00, 0 0 60px #fffb00, 0 0 70px #fffb00, 0 0 80px #fffb00;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(7){
+    animation: glow12 3s ease-in-out infinite;
+    animation-delay: 2.2s;
+}
+@keyframes glow12 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #48ff00, 0 0 40px #48ff00, 0 0 50px #48ff00, 0 0 60px #48ff00, 0 0 70px #48ff00, 0 0 80px #48ff00;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > #birthday-word > span:nth-child(8){
+    animation: glow13 3s ease-in-out infinite;
+    animation-delay: 2.4s;
+}
+@keyframes glow13 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #00ffd5, 0 0 40px #00ffd5, 0 0 50px #00ffd5, 0 0 60px #00ffd5, 0 0 70px #00ffd5, 0 0 80px #00ffd5;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+.greetings > span:nth-child(14){
+    animation: glow14 3s ease-in-out infinite;
+    animation-delay: 2.6s;
+}
+@keyframes glow14 {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #002bff, 0 0 40px #002bff, 0 0 50px #002bff, 0 0 60px #002bff, 0 0 70px #002bff, 0 0 80px #002bff;
+    }
+    10%, 90%{
+        color: #f7f7f7;
+        text-shadow: none;
+    }
+}
+
+/* Glowing Neon Button */
+a {
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #ff86ff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    min-width: 165px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: fade 1s ease-in-out;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+        top: 42%;
+    }
+    100% {
+        opacity: 1;
+        top: 40%;
+    }
+}
+a:hover {
+    background: #ff86ff;
+    color: #050801;
+    box-shadow: 0 0 5px #ff86ff,
+        0 0 25px #ff86ff,
+        0 0 50px #ff86ff,
+        0 0 200px #ff86ff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1) {
+    filter: hue-rotate(270deg);
+}
+a:nth-child(2) {
+    filter: hue-rotate(110deg);
+}
+a span {
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff86ff);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff86ff);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff86ff);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff86ff);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+/* Responsive */
+@media only screen and (max-width: 1360px) {
+    .greetings {
+        gap: 1rem;
+    }
+    #gift-button {
+        top: 45%;
+    }
+    @keyframes fade {
+        0% {
+            opacity: 0;
+            top: 47%;
+        }
+        100% {
+            opacity: 1;
+            top: 45%;
+        }
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .greetings {
+        font-size: 2rem;
+    }
+
+    #gift-button {
+        font-size: .5rem;
+        top: 42%
+    }
+    @keyframes fade {
+        0% {
+            opacity: 0;
+            top: 44%;
+        }
+        100% {
+            opacity: 1;
+            top: 42%;
+        }
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    .greetings {
+        font-size: 1.5rem;
+    }
+
+    #gift-button {
+        font-size: .5rem;
+        top: 40%
+    }
+    @keyframes fade {
+        0% {
+            opacity: 0;
+            top: 42%;
+        }
+        100% {
+            opacity: 1;
+            top: 40%;
+        }
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .greetings {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .greetings {
+        font-size: 1.15rem;
+    }
+}
